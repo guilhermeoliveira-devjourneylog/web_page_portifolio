@@ -1,6 +1,7 @@
 {
   "name": "avo2-react",
   "private": true,
+  "homepage": "github-page/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

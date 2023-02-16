@@ -15,7 +15,7 @@ const ProjectDetailsIntroduction = () => {
           <div className="col-lg-8 offset-lg-1 col-md-8">
             <div className="text js-scroll__content">
               <p className="extra-text">
-              Bybeet is a Startup working in the food systems' area whose value 
+              Bybeet is a Startup working in the food systems area whose value 
               proposition is the provision of local, 
               healthy and ecological food for everyone while regenerating the environment.
               </p>

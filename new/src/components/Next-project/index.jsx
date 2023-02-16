@@ -19,7 +19,7 @@ const NextProject = ({ projectImage, projectTitle }) => {
                   <div className="o-hidden full-width">
                     <h1>
                       <Link href="/project-details2/project-details2-dark">
-                        <span className="stroke">{projectTitle}</span>
+                        <span className="stroke" passhref>{projectTitle}</span>
                       </Link>
                     </h1>
                   </div>
@@ -29,7 +29,7 @@ const NextProject = ({ projectImage, projectTitle }) => {
                     <h1>
                       <Link href="/project-details2/project-details2-dark">
                         <a>
-                          <span>{projectTitle}</span>
+                          <span passhref>{projectTitle}</span>
                         </a>
                       </Link>
                     </h1>

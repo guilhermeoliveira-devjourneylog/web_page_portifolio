@@ -33,7 +33,7 @@ const PortfolioCustomColumn = ({
                 Our Works.
               </h3>
             </Split>
-            <span className="tbg text-right">Portfolio</span>
+          {/*   <span className="tbg text-right">Portfolio</span> */}
           </div>
         </div>
       )}
@@ -54,9 +54,10 @@ const PortfolioCustomColumn = ({
                 <span data-filter="*" className="active">
                   All
                 </span>
-                <span data-filter=".brand">Branding</span>
-                <span data-filter=".web">Mobile App</span>
-                <span data-filter=".graphic">Creative</span>
+{/*                 <span data-filter=".brand">Branding</span> */}
+                <span data-filter=".web">Web App</span>
+                <span data-filter=".mobile">Mobile App</span>
+                <span data-filter=".creative">Creative</span>
               </div>
             </div>
           )}
@@ -81,12 +82,22 @@ const PortfolioCustomColumn = ({
                 data-wow-delay=".4s"
               >
                 <div className="item-img">
-                  <Link href="/project-details2/project-details2-dark">
+                  {/* <Link href={`/project-details/project-details-dark?id=${item.id}`}>
                     <a className="imago wow">
                       <img src={item.image} alt="image" />
                       <div className="item-img-overlay"></div>
                     </a>
-                  </Link>
+                  </Link> */}
+                  <Split>
+                  <a  
+                    href={item.link} target="_blank" rel="noopener noreferrer"
+                    className="imago wow"
+                    data-splitting
+                  >
+                     <img src={item.image} alt="image" />
+                     <div className="item-img-overlay"></div>
+                  </a>               
+                </Split>
                 </div>
                 <div className="cont">
                   <h6>{item.title}</h6>

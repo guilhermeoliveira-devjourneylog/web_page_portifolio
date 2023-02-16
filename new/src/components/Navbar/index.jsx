@@ -6,13 +6,13 @@ import appData from "../../data/app.json";
 import {
   handleDropdown,
   handleMobileDropdown,
-  handleSearch,
+ /*  handleSearch, */
 } from "../../common/navbar";
 
 const Navbar = ({ lr, nr, theme }) => {
-  React.useEffect(() => {
+ /*  React.useEffect(() => {
     handleSearch();
-  }, []);
+  }, []); */
   return (
     <nav
       ref={nr}
@@ -79,29 +79,13 @@ const Navbar = ({ lr, nr, theme }) => {
                 <a className="nav-link">About</a>
               </Link>
             </li>
-            <li className="nav-item dropdown" onClick={handleDropdown}>
-              <span
-                className="nav-link dropdown-toggle"
-                data-toggle="dropdown"
-                role="button"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                portfolio
-              </span>
-              <div className="dropdown-menu">
-                <Link href="/works2/works2-dark">
-                  <a className="dropdown-item">Masonry 3 Columns</a>
-                </Link>
-              </div>
-            </li>
             <li className="nav-item">
               <Link href="/contact/contact-dark">
                 <a className="nav-link">Contact</a>
               </Link>
             </li>
           </ul>
-          <div className="search">
+{/*           <div className="search">
             <span className="icon pe-7s-search cursor-pointer"></span>
             <div className="search-form text-center custom-font">
               <Formik
@@ -122,7 +106,7 @@ const Navbar = ({ lr, nr, theme }) => {
               </Formik>
               <span className="close pe-7s-close cursor-pointer"></span>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </nav>

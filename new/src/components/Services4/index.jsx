@@ -20,7 +20,7 @@ const Services4 = ({ withBG, withPadding, halfBG, withOutTitle }) => {
                 Services.
               </h3>
             </Split>
-            <span className="tbg">Services</span>
+            {/* <span className="tbg">Services</span> */}
           </div>
         )}
         <div className="row">

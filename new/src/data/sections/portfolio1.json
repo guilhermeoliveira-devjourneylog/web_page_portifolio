@@ -1,31 +1,35 @@
 [
   {
     "id": 1,
-    "image": "/img/portfolio/mas/01.jpg",
-    "title": "Creativity Demand",
-    "tags": ["Design", "WordPress"],
-    "filterCategory": ["graphic"]
+    "image": "/img/portfolio/bybeet_landing_page/desktop.png",
+    "title": "Landing Page",
+    "tags": ["Bybeet", "Landing page", "Desktop"],
+    "filterCategory": ["web"],
+    "link": "/project-details/project-bybeet-details"
   },
   {
     "id": 2,
-    "image": "/img/portfolio/mas/02.jpg",
-    "title": "Through The Breaking",
-    "tags": ["Design", "WordPress"],
-    "filterCategory": ["web"]
+    "image": "/img/portfolio/bybeet_landing_page/mobile.png",
+    "title": "Landing Page",
+    "tags": ["Bybeet", "Landing page", "Mobile"],
+    "filterCategory": ["mobile"],
+    "link": "/project-details/project-bybeet-details"
   },
   {
     "id": 3,
-    "image": "/img/portfolio/mas/03.jpg",
-    "title": "Create With Creatives",
-    "tags": ["Design", "WordPress"],
-    "filterCategory": ["brand"]
+    "image": "/img/portfolio/DevJourneyLog_landing_page/desktop.png",
+    "title": "Landing Page/Blog",
+    "tags": ["Dev Journey Log", "Landing page", "Blog", "Desktop", "CMS"],
+    "filterCategory": ["web"],
+    "link": "/project-details/project-devjourneylog-details"
   },
   {
     "id": 4,
-    "image": "/img/portfolio/mas/04.jpg",
-    "title": "Energies of Love",
-    "tags": ["Design", "WordPress"],
-    "filterCategory": ["graphic"]
+    "image": "/img/portfolio/DevJourneyLog_landing_page/mobile.png",
+    "title": "Landing Page/Blog",
+    "tags": ["Dev Journey Log", "Landing page", "Blog", "Mobile", "CMS"],
+    "filterCategory": ["mobile"],
+    "link": "/project-details/project-devjourneylog-details"
   },
   {
     "id": 5,
@@ -40,5 +44,12 @@
     "title": "Blast From The Past",
     "tags": ["Design", "WordPress"],
     "filterCategory": ["brand"]
+  },
+  {
+    "id": 7,
+    "image": "/img/portfolio/mas/06.jpg",
+    "title": "Blast From The Past",
+    "tags": ["App", "Android"],
+    "filterCategory": ["mobile"]
   }
 ]

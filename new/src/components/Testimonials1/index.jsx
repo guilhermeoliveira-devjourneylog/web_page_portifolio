@@ -58,7 +58,7 @@ class Testimonials1 extends React.Component {
                 Testimonials.
               </h3>
             </Split>
-            <span className="tbg">Testimonials</span>
+            {/* <span className="tbg">Testimonials</span> */}
           </div>
           <div
             className="row justify-content-center wow fadeInUp"

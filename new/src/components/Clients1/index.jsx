@@ -43,7 +43,7 @@ const Clients1 = ({ theme, subBG }) => {
                         ) : (
                           <img src={item.darkImage} alt="" />
                         )}
-                        <Split>
+                        {/* <Split>
                           <a
                             href="#0"
                             className="link words chars splitting"
@@ -51,7 +51,16 @@ const Clients1 = ({ theme, subBG }) => {
                           >
                             {item.url}
                           </a>
-                        </Split>
+                        </Split> */}
+                        <Split>
+                        <a
+                          href={item.link} target="_blank" rel="noopener noreferrer"
+                          className="link words chars splitting"
+                          data-splitting
+                        >
+                          {item.alt}
+                        </a>               
+                      </Split>
                       </div>
                     </div>
                   </div>
@@ -93,7 +102,7 @@ const Clients1 = ({ theme, subBG }) => {
                         ) : (
                           <img src={item.darkImage} alt="" />
                         )}
-                        <Split>
+                        {/* <Split>
                           <a
                             href="#0"
                             className="link words chars splitting"
@@ -101,7 +110,16 @@ const Clients1 = ({ theme, subBG }) => {
                           >
                             {item.url}
                           </a>
-                        </Split>
+                        </Split> */}
+                        <Split>
+                        <a
+                          href={item.link} target="_blank" rel="noopener noreferrer"
+                          className="link words chars splitting"
+                          data-splitting
+                        >
+                          {item.alt}
+                        </a>               
+                      </Split>
                       </div>
                     </div>
                   </div>

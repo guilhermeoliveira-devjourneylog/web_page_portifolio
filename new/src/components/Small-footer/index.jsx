@@ -6,8 +6,7 @@ const SmallFooter = () => {
           <div className="container">
             <div className="copyrights text-center mt-0">
               <p>
-                © 2022, Avo Template. Made with passion by
-                <a href="#0">ThemesCamp</a>.
+                © 2023. Made with passion by <a href="#0">Guilherme Oliveira</a>.
               </p>
             </div>
           </div>

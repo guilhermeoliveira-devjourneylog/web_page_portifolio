@@ -249,26 +249,7 @@ const Demos = () => {
             </div>
 
             <div className="row">
-              <div className="gallery full-width">
-                <div className="col-lg-4 col-md-6 items brand">
-                  <div className="item-img wow fadeInUp" data-wow-delay=".4s">
-                    <div className="tlinks valign">
-                      <div className="full-width">
-                        <Link href="/works2/works2-dark">
-                          <a target="_blank">Dark Version</a>
-                        </Link>
-                        <Link href="/works2/works2-light">
-                          <a target="_blank">Light Version</a>
-                        </Link>
-                      </div>
-                    </div>
-                    <img src="/img/demos/9.png" alt="image" />
-                  </div>
-                  <div className="cont">
-                    <h6>Masonry 3 Columns</h6>
-                  </div>
-                </div>
-
+              <div className="gallery full-width">              
                 <div className="col-lg-4 col-md-6 items brand">
                   <div className="item-img wow fadeInUp" data-wow-delay=".4s">
                     <div className="tlinks valign">
@@ -296,8 +277,7 @@ const Demos = () => {
           <div className="container">
             <div className="copyrights text-center mt-0">
               <p>
-                © 2022, Avo Template. Made with passion by
-                <a href="#0">ThemesCamp</a>.
+                © 2023. Made with passion by <a href="#0">Guilherme Oliveira</a>.
               </p>
             </div>
           </div>

@@ -27,7 +27,7 @@ const ContactSection = () => {
               Contact Us.
             </h3>
           </Split>
-          <span className="tbg">Contact</span>
+          {/* <span className="tbg">Contact</span> */}
         </div>
         <div className="row justify-content-center">
           <div className="col-lg-10">
@@ -40,7 +40,7 @@ const ContactSection = () => {
                 }}
                 onSubmit={async (values) => {
                   await sendMessage(500);
-                  // alert(JSON.stringify(values, null, 2));
+                   alert(JSON.stringify(values, null, 2));
                   // show message
                   const formData = new FormData();
 

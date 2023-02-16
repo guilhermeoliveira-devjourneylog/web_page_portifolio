@@ -37,8 +37,14 @@ const MinimalArea = () => {
 
               <Split>
                 <p className="wow txt words chars splitting" data-splitting>
-                  Our creative Ad agency is ranked among the finest in the US.
-                  We cultivate smart ideas for start-ups and seasoned players.
+                Com experiência de 1 ano e 5 meses em desenvolvimento de aplicaçõe web e mobile. 
+                Tenho habilidades sólidas em linguagens de programação como Java, Python e JavaScript, 
+                bem como experiência em frameworks front-end como React e Angular. Também tenho conhecimento 
+                profundo em banco de dados, incluindo MySQL, MongoDB e Firebase.
+                </p>
+                <p className="wow txt words chars splitting" data-splitting>        
+                Tenho a habilidade de trabalhar em projetos de ponta a ponta, desde o planejamento inicial 
+                até a implementação e manutenção.
                 </p>
               </Split>
               <ul className="feat">
@@ -47,15 +53,16 @@ const MinimalArea = () => {
                     <span>1</span> Our Mission
                   </h6>
                   <p>
-                    luctus massa ipsum at tempus eleifend congue lectus bibendum
-                  </p>
+                  Fornecer soluções de desenvolvimento de alta qualidade que atendam às necessidades 
+                  específicas de cada cliente, garantindo uma experiência de usuário incrível e satisfatória.                  </p>
                 </li>
                 <li className="wow fadeInUp" data-wow-delay=".4s">
                   <h6>
                     <span>2</span> Our Goals
                   </h6>
                   <p>
-                    luctus massa ipsum at tempus eleifend congue lectus bibendum
+                  Ser reconhecido como um dos melhores desenvolvedores da indústria, 
+                  oferecendo soluções inovadoras e eficientes que maximizem o valor para os clientes.
                   </p>
                 </li>
                 <li className="wow fadeInUp" data-wow-delay=".6s">
@@ -63,7 +70,7 @@ const MinimalArea = () => {
                     <span>3</span> Why Us?
                   </h6>
                   <p>
-                    luctus massa ipsum at tempus eleifend congue lectus bibendum
+                  Qualidade, Inovação, Integridade, Colaboração e Foco no Cliente.
                   </p>
                 </li>
               </ul>

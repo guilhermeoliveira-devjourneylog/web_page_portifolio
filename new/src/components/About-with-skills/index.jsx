@@ -24,13 +24,16 @@ const AboutWithSkills = () => {
                 </h3>
               </Split>
               <p className="wow fadeInUp" data-wow-delay=".5s">
-                Hello! I’m Guilherme Oliveira. Currently Web Developer at startup Bybeet 
-                creating technology on a voluntary basis.
-                Collaborating for the business to develop.
-                I am actively looking for new knowledge and practical application whether in Software
-                Engineering, Front-end and Back-end.
+                Hello! I’m Guilherme Oliveira. Com experiência de 1 ano e 5 meses 
+                em desenvolvimento de aplicaçõe web e mobile. Tenho habilidades 
+                sólidas em linguagens de programação como Java, Python e JavaScript, 
+                bem como experiência em frameworks front-end como React e Angular. 
+                Também tenho conhecimento profundo em banco de dados, incluindo MySQL, MongoDB e Firebase.
               </p>
-              <a href="#0" className="simple-btn mt-40">
+              <p className="wow fadeInUp" data-wow-delay=".5s">
+                Tenho a habilidade de trabalhar em projetos de ponta a ponta, desde o planejamento inicial até a implementação e manutenção.
+              </p>
+              <a href="/pdf/Currículo Front-end Guilherme Rodrigues Oliveira.pdf" className="simple-btn mt-40">
                 Download C.V
               </a>
             </div>

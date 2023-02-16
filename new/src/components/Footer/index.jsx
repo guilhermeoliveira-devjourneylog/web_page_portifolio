@@ -20,96 +20,51 @@ const Footer = ({ noSubBG }) => {
         <div className="row">
           <div className="col-lg-5">
             <div className="cont">
-              <div className="logo">
+            {/*   <div className="logo">
                 <a href="#0">
                   <img src={`${appData.lightLogo}`} alt="" />
                 </a>
-              </div>
+              </div> */}
               <div className="con-info custom-font">
                 <ul>
                   <li>
-                    <span>Email : </span> Avo_support@website.com
-                  </li>
+                    <span>Email : </span> <a href="mailto: dev.guilherme.oliveira@gmail.com">dev.guilherme.oliveira@gmail.com</a>      
+                  </li>                 
                   <li>
+                    <span>Address : </span> Portugal.
+                  </li>
+                  {/* <li>
                     <span>Address : </span> A32 , Ave 15th Street, Door 211, San
                     Franciso, USA 32490.
-                  </li>
-                  <li>
+                  </li> */}
+                {/*   <li>
                     <span>Phone : </span> (+1) 2345 678 44 88
-                  </li>
+                  </li> */}
                 </ul>
               </div>
               <div className="social-icon">
                 <h6 className="custom-font stit simple-btn">Follow Us</h6>
                 <div className="social">
                   <a href="#0" className="icon">
-                    <i className="fab fa-facebook-f"></i>
+                    <i className="fab fa-medium"></i>
                   </a>
                   <a href="#0" className="icon">
                     <i className="fab fa-twitter"></i>
                   </a>
                   <a href="#0" className="icon">
-                    <i className="fab fa-pinterest"></i>
+                    <i className="fab fa-github"></i>
                   </a>
                   <a href="#0" className="icon">
-                    <i className="fab fa-behance"></i>
+                    <i className="fab fa-linkedin"></i>
                   </a>
                 </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-5 offset-lg-2">
-            <div className="subscribe mb-50">
-              <h6 className="custom-font stit simple-btn">Newslatter</h6>
-              <p>Sign up for subscribe out newsletter!</p>
-              <Formik
-                initialValues={{
-                  subscribe: "",
-                }}
-                onSubmit={async (values) => {
-                  await sendEmail(500);
-                  alert(JSON.stringify(values, null, 2));
-                  // Reset the values
-                  values.subscribe = "";
-                }}
-              >
-                {({ errors, touched }) => (
-                  <Form>
-                    <div className="form-group custom-font">
-                      <Field
-                        validate={validateEmail}
-                        type="email"
-                        name="subscribe"
-                        placeholder="Your Email"
-                      />
-                      {errors.email && touched.email && (
-                        <div>{errors.email}</div>
-                      )}
-                      <button className="cursor-pointer">Subscribe</button>
-                    </div>
-                  </Form>
-                )}
-              </Formik>
-            </div>
-            <div className="insta">
-              <h6 className="custom-font stit simple-btn">Instagram Post</h6>
-              <div className="insta-gallary">
-                <a href="#0">
-                  <img src="/img/insta/1.jpg" alt="" />
-                </a>
-                <a href="#0">
-                  <img src="/img/insta/2.jpg" alt="" />
-                </a>
-                <a href="#0">
-                  <img src="/img/insta/3.jpg" alt="" />
-                </a>
               </div>
             </div>
           </div>
         </div>
         <div className="copyrights text-center">
           <p>
-            © 2022, Avo Template. Made with passion by <a href="#0">ThemesCamp</a>.
+            © 2023. Made with passion by <a href="#0">Guilherme Oliveira</a>.
           </p>
         </div>
       </div>

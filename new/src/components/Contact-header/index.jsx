@@ -26,7 +26,7 @@ const ContactHeader = ({ sliderRef }) => {
               </div>
 
               <div className="bactxt custom-font valign">
-                <span className="full-width">Contact</span>
+                {/* <span className="full-width">Contact</span> */}
               </div>
             </div>
           </div>

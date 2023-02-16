@@ -1,7 +1,7 @@
 {
   "name": "avo2-react",
   "private": true,
-  "homepage": "web_page_portifolio/",
+  "homepage": "web_page_portifolio/new/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

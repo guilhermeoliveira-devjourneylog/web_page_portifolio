@@ -1,13 +1,14 @@
 {
-  "name": "avo2-react",
+  "name": "web_page_portifolio",
   "private": true,
-  "homepage": "web_page_portifolio/new/",
+  "homepage": "https://guilhermeoliveira-devjourneylog.github.io/web_page_portifolio/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "export": "next build && next export",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "axios": "^0.27.2",

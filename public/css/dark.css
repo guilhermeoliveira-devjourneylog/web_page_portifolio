@@ -48,12 +48,12 @@
 ---------------------------------------------------------------- */
 /* ====================== [ Start Typography  ] ====================== */
 
-@import "/css/bootstrap.min.css";
-@import "/css/animate.css";
-@import "/css/font-awesome.min.css";
-@import "/css/ionicons.min.css";
-@import "/css/pe-icon.min.css";
-@import "/css/font-awesome.min.css";
+@import "/public/css/bootstrap.min.css";
+@import "/public/css/animate.css";
+@import "/public/css/font-awesome.min.css";
+@import "/public/css/ionicons.min.css";
+@import "/public/css/pe-icon.min.css";
+@import "/public/css/font-awesome.min.css";
 * {
   margin: 0;
   padding: 0;

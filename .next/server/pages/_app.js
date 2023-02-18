@@ -193,7 +193,7 @@ const LoadingScreen = ()=>{
             app/* showLoading */.QP ? /*#__PURE__*/ jsx_runtime_.jsx((script_default()), {
                 id: "pace",
                 strategy: "beforeInteractive",
-                src: "/public/js/pace.min.js"
+                src: "/js/pace.min.js"
             }) : ""
         ]
     }));
